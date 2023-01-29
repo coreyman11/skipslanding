@@ -11,6 +11,12 @@ import ScrollAnimationWrapper from "./Layout/ScrollAnimationWrapper";
 const Pricing = () => {
   const scrollAnimation = useMemo(() => getScrollAnimation(), []);
 
+  <script async src="https://js.stripe.com/v3/pricing-table.js"></script>
+  <stripe-pricing-table pricing-table-id="prctbl_1MVLF1LHX2PXE6QluRHabqZc"
+  publishable-key="pk_live_51J4qIpLHX2PXE6QlaGUKewVoT2EnVW39kGmjtsJsk9zUKafa1UQBAQ9XWy5o4JvZ8PkKAh9sHiC93yCi33JPtKT6003A0wkWZN">
+  </stripe-pricing-table>  
+  
+  
   return (
     <div
       className="bg-gradient-to-b from-white-300 to-white-500 w-full py-14"
